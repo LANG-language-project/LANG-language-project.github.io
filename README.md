@@ -12,4 +12,4 @@ Declarative pipeline language for data movement and automation. A pipeline is a 
 
 ### [UniLogic](https://github.com/albazzaztariq/UniLogic)
 
-Unified systems and application language. One syntax across systems-level and application-level work — memory management, pointers, and bitwise operations in the same file as high-level logic, with no mode switch. Transpiles to C, Python, and JavaScript. Runtime behaviour (memory model, allocator, overflow, bounds checking, float semantics) is declared per file at compile time, not fixed by the language. Includes a formal memory safety proof system with verifiable certificates.
+Unified systems, application, and web language. One syntax across all three — memory management, pointers, and bitwise operations in the same file as high-level logic, with no mode switch. Transpiles to C, Python, and JavaScript. Runtime behaviour (memory model, allocator, overflow, bounds checking, float semantics) is declared per file at compile time, not fixed by the language. Includes a formal memory safety proof system with verifiable certificates.
