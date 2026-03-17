@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LANG Project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #f7f8fa;
+      color: #1e2430;
+      font-family: 'Jost', sans-serif;
+      font-weight: 300;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      width: 100%;
+      padding: 52px 0 32px;
+      text-align: center;
+      border-bottom: 1px solid #e2e5ea;
+      background: #fff;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-weight: 600;
+      font-size: 2.4rem;
+      letter-spacing: 0.04em;
+      color: #1e2430;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 0.95rem;
+      color: #6c7a8a;
+      font-weight: 300;
+    }
+
+    main {
+      width: 100%;
+      max-width: 860px;
+      padding: 60px 24px 80px;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid #e2e5ea;
+      border-radius: 10px;
+      padding: 36px 40px;
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      text-decoration: none;
+      color: inherit;
+      transition: border-color 0.18s, box-shadow 0.18s;
+    }
+
+    .card:hover {
+      border-color: #5878a8;
+      box-shadow: 0 4px 18px rgba(88,120,168,0.10);
+    }
+
+    .card-logo {
+      width: 72px;
+      height: 72px;
+      object-fit: contain;
+      flex-shrink: 0;
+    }
+
+    .card-logo-placeholder {
+      width: 72px;
+      height: 72px;
+      flex-shrink: 0;
+      background: #f0f3f7;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Playfair Display', serif;
+      font-size: 1.4rem;
+      color: #6c7a8a;
+      letter-spacing: 0.06em;
+    }
+
+    .card-body {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .card-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #1e2430;
+    }
+
+    .card-sub {
+      font-size: 0.88rem;
+      color: #6c7a8a;
+      font-weight: 300;
+    }
+
+    .card-link-label {
+      font-size: 0.82rem;
+      color: #5878a8;
+      margin-top: 4px;
+    }
+
+    .pdf-card {
+      background: #f7f8fa;
+      border-style: dashed;
+    }
+
+    footer {
+      margin-top: auto;
+      padding: 24px;
+      font-size: 0.78rem;
+      color: #9aa3af;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>LANG Project</h1>
+  <p>A suite of language tools and specifications.</p>
+</header>
+
+<main>
+
+  <a class="card" href="https://albazzaztariq.github.io/UniLogic/pragma.html">
+    <img class="card-logo" src="pragma_logo.png" alt="Pragma logo">
+    <div class="card-body">
+      <div class="card-title">Pragma</div>
+      <div class="card-sub">Declarative pipeline language for data movement, transformation, and automation.</div>
+      <div class="card-link-label">Pragma Website Landing Page →</div>
+    </div>
+  </a>
+
+  <a class="card" href="https://albazzaztariq.github.io/UniLogic/">
+    <img class="card-logo" src="unilogic_logo.png" alt="UniLogic logo">
+    <div class="card-body">
+      <div class="card-title">UniLogic</div>
+      <div class="card-sub">Unified systems and application language. Transpiles to C, Python, and JavaScript with formal memory safety.</div>
+      <div class="card-link-label">UniLogic Website Landing Page →</div>
+    </div>
+  </a>
+
+  <a class="card pdf-card" href="LANG_Complete_F.pdf">
+    <div class="card-logo-placeholder">PDF</div>
+    <div class="card-body">
+      <div class="card-title">Full Description</div>
+      <div class="card-sub">Complete specification and design document for the LANG Project.</div>
+      <div class="card-link-label">LANG_Complete_F.pdf →</div>
+    </div>
+  </a>
+
+</main>
+
+<footer>LANG Project</footer>
+
+</body>
+</html>
